@@ -1,0 +1,97 @@
+/* ------------------------------------------
+   generated.less
+   LESS file to generate CSS - simple example
+   Version 1.0.0
+   Mark DuBois
+   Jan. 17, 2013
+   ------------------------------------------
+*//* ------------------------------------------
+   import variable definitions used throughout
+   ------------------------------------------
+*/
+/* definitions.less
+   These variables are used throughout.
+   I am following DRY approach - Don't
+   Repeat Yourself
+   Version 1.0.0
+   Mark DuBois
+   Jan. 17, 2013
+*//*  end of definitions.less file */
+/* ------------------------------------------
+   example of simple mixing with variables
+   ------------------------------------------
+*/
+.commonStyle {
+  border-radius: 5px;
+  border: 1px solid #990000;
+  padding: 10px;
+}
+header {
+  color: #000099;
+  background-color: #cccccc;
+  border-radius: 5px;
+  border: 1px solid #990000;
+  padding: 10px;
+}
+footer {
+  color: #cccccc;
+  background-color: #000099;
+  border-radius: 5px;
+  border: 1px solid #990000;
+  padding: 10px;
+}
+/* ------------------------------------------
+   example of nested styles with variables
+   ------------------------------------------
+*/
+body {
+  font-family: Arial;
+}
+body #sidebar {
+  font-family: Courier;
+}
+/* ------------------------------------------
+   example of plain CSS (to show it is unaffected)
+   ------------------------------------------
+*/
+#wrapper {
+  width: 750px;
+  margin: 0 auto;
+}
+#main {
+  float: left;
+  width: 500px;
+}
+#sidebar {
+  float: right;
+  width: 250px;
+}
+footer {
+  clear: both;
+  width: 750px;
+}
+ul {
+  border: 1px solid #990000;
+  margin: 10px;
+}
+/* ------------------------------------------
+   example of changing color with hsl and fade
+   example of operator to change color value
+   ------------------------------------------
+*/
+h1 {
+  color: #a1a1f7;
+  text-align: center;
+}
+h3 {
+  color: rgba(204, 0, 153, 0.6);
+  text-align: center;
+}
+/* ------------------------------------------
+   example of operators (simple math)
+   example of function lighten
+   ------------------------------------------
+*/
+.special {
+  border: 6px solid #ff6666;
+}
